@@ -29,6 +29,7 @@ const Cell = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-bottom: 25px;
 
   :last-child {
     margin-bottom: 100px;
