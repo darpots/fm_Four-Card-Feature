@@ -10,7 +10,7 @@ export const Card = ({ ...props }) => {
         <p>{props.text}</p>
       </div>
       <span>
-        <img src={props.icon} alt="" />
+        <img src={props.icon} alt={props.title} />
       </span>
     </Cell>
   )
